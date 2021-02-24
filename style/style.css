@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Ballet&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border:5px double #fcfc03;
+}
+body {
+    background-image:url(../images/fon.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.content {
+	background-color: #8ee8a9;
+	width:1200px;
+	margin: 0px auto;
+    padding:10px; 
+}
+.row {
+	display: flex;
+}
+.box {
+	background-color: #ffae00;
+	margin: 10px;
+	padding: 20px;
+	width: 100px;
+	flex-grow: 1;
+	border-radius: 10px;
+}
+.box p {
+     font-size: 30px;
+     color: #000000;
+}
+footer {
+	background-color: #05a10a;
+	color: #ff82c9;
+	font-size: 30px;
+}
+h1 {
+	font-family: 'Allura', cursive;
+	font-size: 45px;
+	color: #b8060e;
+	background-color: #bdffab; 
+	text-align: center;
+}
